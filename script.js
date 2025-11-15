@@ -1,4 +1,4 @@
-// variables globales
+// variables 
 let numeroActual = "";
 let numeroAnterior = "";
 let operacion = null;
@@ -64,3 +64,4 @@ function calcular() {
     numeroAnterior = "";
     operacion = null;
 }
+
