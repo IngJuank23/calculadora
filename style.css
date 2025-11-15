@@ -16,12 +16,12 @@ h1 {
     border: 2px solid #444;
     border-radius: 10px;
     background-color: #ffffff;
-    box-sizing: border-box; /* 🔧 evita que el padding aumente el tamaño */
+    box-sizing: border-box; /*  Evita que el padding aumente el tamaño */
 }
 
 #pantalla {
     width: 100%;
-    max-width: 100%; /* 🔧 evita que se salga del contenedor */
+    max-width: 100%; /*  Evita que se salga del contenedor */
     height: 50px;
     background: #000;
     color: #0f0;
@@ -31,9 +31,9 @@ h1 {
     align-items: center;
     padding: 0 10px;
     border: 2px solid #444;
-    margin: 0 auto 10px auto; /* 🔧 evita que sobresalga */
-    box-sizing: border-box; /* 🔧 asegura que el padding no expanda */
-    overflow: hidden; /* 🔧 por si los números son muy largos */
+    margin: 0 auto 10px auto; /*  Evita que sobresalga */
+    box-sizing: border-box; /*  Asegura que el padding no expanda */
+    overflow: hidden; /*  Por si los números son muy largos */
 }
 
 .fila {
@@ -66,4 +66,5 @@ button {
 #resultado {
     background-color: #66cc66;
 }
+
 
